@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(212, 121, 2);
+}
+.box { 
+  border-bottom: 5px solid rgb(212, 121, 2);
+  padding: .5em 1em;
+  background-color: black;
+}
+
+.box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h1 {
+  font-size: 1.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.links {
+  float: right;
+}
+
+.links ul, li {
+  margin: 0; 
+  padding: 0;
+}
+
+.links li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
