@@ -47,3 +47,17 @@ a {
   display: inline-block;
   margin: 1.4em 1em 1em 1em;
 }
+main {
+  height: 790px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(14, 13, 13);
+  color: white;
+  border-bottom: 5px solid rgb(212, 121, 2);
+}
+.kontakt {
+  display: flex;
+  justify-content: left;
+}
